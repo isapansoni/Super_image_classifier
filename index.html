@@ -21,7 +21,7 @@
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Super Image Classifier</a>
-            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Help</button>
+            <button class="secondary" type="submit">Help</button>
         </div>
     </nav>
     
@@ -58,8 +58,14 @@ function preview_image(event)
 <body>
 <div id="wrapper">
  <input type="file" accept="image/*" onchange="preview_image(event)">
+ </div>
+ <br>
+
+ <div>
+
  <img id="output_image"/>
 </div>
+<br>
 </body>
 </html>
 
@@ -77,5 +83,3 @@ function preview_image(event)
             <button type="button" class="btn btn-primary btn-lg " onclick=setup() id="button">Predict!</button>
         </div>
     </div>
-
-
