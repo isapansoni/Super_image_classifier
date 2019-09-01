@@ -10,3 +10,4 @@ How it works ?
 
 Upload Image we want to classify and click on the predict model.Application will show you class of the Image with confidence score
 
+![Train](https://user-images.githubusercontent.com/33773505/64072494-f9dd9380-ccac-11e9-9b67-62e3ebe99354.png)
